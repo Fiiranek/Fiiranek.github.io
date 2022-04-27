@@ -12,7 +12,7 @@ import nodeLogo from "../img/node.png";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footerLogos">
+      {/*<div className="footerLogos">
         <img className="image" src={flutterLogo} alt="" />
         <img className="image" src={pythonLogo} alt="" />
         <img className="image" src={rpiLogo} alt="" />
@@ -21,9 +21,9 @@ function Footer() {
         <img className="image" src={reactLogo} alt="" />
         <img className="image" src={nodeLogo} alt="" />
         <img className="image" src={unityLogo} alt="" />
-      </div>
+  </div>*/}
       <div className="footer-copy">
-        <span className="footer-span">&copy; 2021 Franciszek Job</span>
+        <span className="footer-span">&copy; 2022 Franciszek Job</span>
       </div>
     </div>
   );

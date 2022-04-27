@@ -5,14 +5,14 @@ export default function AboutMe() {
     <div className="box">
       <div className="about">
         <p className="animated fadeInDown">19 yo</p>
-        <p className="animated fadeInDown">IT Student</p>
+        {/* <p className="animated fadeInDown">CS Student</p>*/}
         <p className="animated fadeInDown">Cracow</p>
         <p className="animated fadeInDown">&nbsp;</p>
         <p className="animated fadeInDown">Tennis & Sport</p>
         <p className="animated fadeInDown">Programming</p>
         <p className="animated fadeInUp">Crypto</p>
         <p className="animated fadeInUp">Economy</p>
-        <p className="animated fadeInUp">&nbsp;</p>
+        {/*<p className="animated fadeInUp">&nbsp;</p>
         <p className="animated fadeInUp">ETH Donations</p>
         <p className="animated fadeInUp address">
           0x10EC5E1929eF6e1B3b5EB1eA849422C9D7b81E45
@@ -23,7 +23,7 @@ export default function AboutMe() {
         </p>
         <p className="animated fadeInUp address">
           ldd2spxmlnpnf9fnar2tmy3nru700lgmlfz59mvg32axcmpvjf9q4rkmsf
-        </p>
+        </p>*/}
       </div>
     </div>
   );

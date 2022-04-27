@@ -1,6 +1,23 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 export default function Projects() {
+  const projects = [
+    { link: "https://theatomicheroes.com/", name: "The Atomic Heroes" },
+    { link: "https://adaai.art/", name: "Ada AI Art" },
+    { link: "https://adarealm.io/", name: "Ada Realm" },
+    { link: "https://openleaguescores.web.app/", name: "Open League scores" },
+    {
+      link:
+        "https://github.com/Fiiranek/crypto-auto-trader-platform/tree/downloader",
+      name: "Crypto Auto Trader",
+    },
+    {
+      link: "https://github.com/Fiiranek/property-price",
+      name: "Property Price Estimator",
+    },
+    { link: "https://github.com/Fiiranek/ZSLRobot", name: "Robot" },
+    { link: "http://fiiranek.github.io/dr-mario", name: "Dr Mario" },
+  ];
   const [nfrogtsLink, setNfrogtsLink] = useState("https://nfrogts.io");
 
   useEffect(() => {
@@ -16,7 +33,14 @@ export default function Projects() {
   return (
     <div className="box">
       <div className="about">
-        <p className="animated fadeInDown">
+        {projects.map((project) => (
+          <p className="animated fadeInDown">
+            <a href={project.link} className="project-link" target="_blank">
+              {project.name}
+            </a>
+          </p>
+        ))}
+        {/*<p className="animated fadeInDown">
           <a
             href="https://github.com/Fiiranek/crypto-auto-trader-platform/tree/downloader"
             className="project-link"
@@ -72,7 +96,7 @@ export default function Projects() {
           >
             Mobile News App
           </a>
-        </p>
+  </p>*/}
       </div>
     </div>
   );
