@@ -17,6 +17,7 @@ export default function Projects() {
     },
     { link: "https://github.com/Fiiranek/ZSLRobot", name: "Robot" },
     { link: "http://fiiranek.github.io/dr-mario", name: "Dr Mario" },
+    { link: "https://github.com/Fiiranek/SocialNetwork", name: "Artico" },
   ];
   const [nfrogtsLink, setNfrogtsLink] = useState("https://nfrogts.io");
 
